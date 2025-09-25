@@ -1,15 +1,15 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 
-const HomePage = () => {
+const BookList = () => {
     return (
         <div>
-            <h1>Welcome to the Bookstore</h1>
+            <h1>Welcome to the BookList</h1>
             <p>This is the home page of the bookstore application.</p>
             <p>Explore</p>
-            <Link to="/books"> Go to Book List</Link>
+            <Link to="/category/fiction"> Go to Categories</Link>
         </div>
     );
 }
 
-export default HomePage;
+export default BookList;
